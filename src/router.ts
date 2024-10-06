@@ -1,10 +1,12 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Abort from "./pages/Abort/Abort.vue";
 
 const routes = [
   { path: "/", component: Login },
   { path: "/login", component: Login },
+  { path: "/abort", component: Abort },
   { path: "/register", component: Register },
 ];
 
